@@ -14,5 +14,8 @@ rabbit:
 stop:
 	docker stop $(DNAME)
 
+start:
+	docker start $(DNAME)
+
 clean:
 	docker rm $(DNAME)
